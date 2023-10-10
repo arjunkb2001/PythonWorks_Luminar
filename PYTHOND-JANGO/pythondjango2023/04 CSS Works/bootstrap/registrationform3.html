@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            height: 100vh;
+            background-color: #7487eb;
+            background-image: linear-gradient(90deg, #7487eb 0%, #c19fe6 100%);
+
+        }
+
+
+        .btn-bd-primary {
+
+            color: rgb(255, 255, 255);
+            background-color: blueviolet;
+            background-image: linear-gradient(90deg, #7487eb 0%, #c19fe6 100%);
+        }
+
+        h3 {
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-lg-9 col-md-9 col-7">
+                <div class="bg-white p-4 pb-md-5 mt-5"3
+                >
+                    <h3><strong>Registration</strong></h3>
+                    <hr>
+                    <form>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-5">
+
+                                <div class="form-outline">
+                                    <label class="form-label" for="id_Name"><strong>Full Name</strong></label>
+                                    <input type="text" id="id_Name" placeholder="Enter your name"
+                                        class="form-control" />
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 mb-5">
+
+                                <div class="form-outline">
+                                    <label class="form-label" for="id_username"><strong>Username</strong></label>
+                                    <input type="text" id="id_username" placeholder="Enter your username"
+                                        class="form-control" />
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-5 ">
+
+                                <div class="form-outline">
+                                    <label class="form-label" for="id_email"><strong>Email</strong></label>
+                                    <input type="email" id="id_email" placeholder="Enter your email"
+                                        class="form-control" />
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 mb-4">
+
+                                <div class="form-outline">
+                                    <label class="form-label" for=""><strong>Phone Number</strong></label>
+                                    <input type="tel" id="phoneNumber" placeholder="Enter your number"
+                                        class="form-control" />
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 mb-4">
+
+                                <div class="form-outline">
+                                    <label class="form-label" for="id_password"><strong>Password</strong></label>
+                                    <input type="password" id="id_password" placeholder="Enter your password"
+                                        class="form-control" />
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 mb-4">
+
+                                <div class="form-outline">
+                                    <label class="form-label" for=""><strong>Confirm Password</strong></label>
+                                    <input type="password" id="confirmpassword" placeholder="Confirm your password"
+                                        class="form-control" />
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <h6 class="mb-3"><strong>Gender</strong></h6>
+                            <div class="gender">
+                                <input type="radio" name="gender" id="id_female" />
+                                <label class="form-check-label" for="id_female">Female</label>
+
+                                <input type="radio" name="gender" id="id_male" />
+                                <label class="form-check-label" for="id_male">Male</label>
+                                
+                                <input type="radio" name="gender" id="id_pnts" />
+                                <label class="form-check-label" for="id_pnts">Prefer Not To Say</label>
+                            </div>
+                            <div>
+                                <div class="d-grid column-gap-5 mt-5">
+                                    <button class="btn btn-bd-primary" type="button">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

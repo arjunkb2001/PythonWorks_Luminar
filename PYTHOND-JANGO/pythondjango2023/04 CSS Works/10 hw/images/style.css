@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.row{
+    width: 40%;
+    background-color: white;
+    border: 1px solid red;
+}
+.col{
+
+    color: black;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+
+h2{
+    text-align: left;
+    color: rgb(255, 255, 4);
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+img{
+    width: 3cm;
+    height: 3cm;
+}
+
+.btn{
+    background-color: rgb(255, 251, 0);
+    margin-top: 130px;
+    color: white;
+    padding: 10px; 
+}

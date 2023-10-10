@@ -1,0 +1,6 @@
+st1={10,15,20,30,40}
+st2={25,20,10,45,5}
+
+intersectionset=st1.intersection(st2)
+
+print(intersectionset)

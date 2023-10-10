@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+h1{
+    color: rgb(255, 11, 11);
+}
+.items{
+    color: aqua;
+}
+.item2{
+    text-decoration: underline;
+    color: white;
+}
+.blue{
+    color: blueviolet;
+}
+.green{
+    color: green;
+}
+/* .main-head h1{
+    color: chartreuse;
+} */
+.main-head h1:nth-child(1){
+    color: deepskyblue;
+}
+
+.main-head h1:nth-child(2){
+    color: indianred;
+}

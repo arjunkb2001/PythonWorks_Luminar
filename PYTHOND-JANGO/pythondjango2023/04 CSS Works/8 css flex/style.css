@@ -1,0 +1,23 @@
+.row{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(232, 197, 151);
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    /* justify-content: flex-start , flex-end ; */
+    align-items: center;
+    
+}
+
+
+.col{
+    width: 20%;
+    height: 100px;
+    background-color: crimson;
+    border: 2px solid rgb(3, 221, 255);
+}
+

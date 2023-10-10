@@ -1,0 +1,22 @@
+/* strong{
+    color: rgb(0, 213, 255);
+    
+} */
+.me1{
+    max-width: 250px;
+    height: 250px;
+    border-radius: 350px;
+    object-fit: contain;
+}
+/* div .card{
+    background-color: cornflowerblue;
+} */
+.about{
+    list-style: none;
+}
+.about li{
+    margin-top: 10px;
+}
+.me2{
+    object-fit: contain;
+}
